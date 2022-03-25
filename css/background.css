@@ -1,0 +1,29 @@
+
+body {
+  background: #fff;
+  font-family: "Comfortaa", sans-serif;
+}
+
+:root {
+  --light-brown: #f8d496;
+  --light-brown-2: #f8c077;
+  --light-brown-3: #f9aa4e;
+  --light-brown-4: #ef9f3d;
+  --brown: #d79457;
+  --cherry: #ad2a3d;
+  --cherry-dark: #961b2f;
+  --cherry-light: #f83e48;
+  --cherry-light-2: #ff5861;
+  --pink: #f6b1c5;
+  --pie: rgb(239, 174, 102);
+}
+
+.pie {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--cherry);
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0) 63%, rgba(98, 23, 37, 0.15) 65%, var(--light-brown) 65%, var(--brown) 65%, var(--light-brown-3) 74%, var(--light-brown-2) 86%, var(--pie) 89%, rgba(255, 255, 255, 0) 89%), linear-gradient(45deg, rgba(255, 255, 255, 0) 63%, rgba(98, 23, 37, 0.15) 65%, var(--light-brown) 65%, var(--brown) 65%, var(--light-brown-3) 74%, var(--light-brown-2) 86%, var(--pie) 89%, rgba(255, 255, 255, 0) 89%), linear-gradient(-45deg, rgba(255, 255, 255, 0) 63%, rgba(98, 23, 37, 0.15) 65%, var(--light-brown) 65%, var(--brown) 65%, var(--light-brown-3) 74%, var(--light-brown-2) 86%, var(--pie) 89%, rgba(255, 255, 255, 0) 89%), linear-gradient(45deg, rgba(255, 255, 255, 0) 13%, rgba(98, 23, 37, 0.15) 15%, var(--light-brown) 15%, var(--brown) 15%, var(--light-brown-3) 24%, var(--light-brown-2) 36%, var(--pie) 39%, rgba(255, 255, 255, 0) 39%), linear-gradient(-45deg, rgba(255, 255, 255, 0) 13%, rgba(98, 23, 37, 0.15) 15%, var(--light-brown) 15%, var(--brown) 15%, var(--light-brown-3) 24%, var(--light-brown-2) 36%, var(--pie) 39%, rgba(255, 255, 255, 0) 39%), linear-gradient(to bottom, rgba(98, 23, 37, 0.6) 0, rgba(0, 0, 0, 0) 25%), radial-gradient(circle, var(--cherry-light) 0%, rgba(255, 255, 255, 0.2) 2%, rgba(0, 0, 0, 0) 16%), radial-gradient(circle, var(--cherry-light) 10%, var(--cherry) 30%, var(--cherry-dark) 38%, rgba(0, 0, 0, 0) 40%), radial-gradient(circle, var(--cherry-dark) 0%, var(--cherry) 10%, var(--cherry-dark) 25%, rgba(0, 0, 0, 0) 30%), radial-gradient(circle, #621725 0%, var(--cherry-dark) 30%, rgba(0, 0, 0, 0) 60%), radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 12%), linear-gradient(to right, rgba(98, 23, 37, 0.6) 10%, rgba(98, 23, 37, 0) 100%, rgba(0, 0, 0, 0) 100%), linear-gradient(-30deg, rgba(98, 23, 37, 0.3) 40%, rgba(0, 0, 0, 0) 55%), radial-gradient(circle, var(--cherry-light) 8%, var(--cherry) 20%, var(--cherry-dark) 30%, rgba(0, 0, 0, 0) 25%), radial-gradient(circle, var(--cherry-light) 6%, var(--cherry-light) 20%, var(--cherry) 28%, rgba(0, 0, 0, 0) 35%), linear-gradient(to bottom, #621725 0%, rgba(98, 23, 37, 0.4) 50%, #621725 100%);
+  background-size: 150px 150px;
+  background-position: 110px 40px, 0 0, 0 0, 0 0, 0 0, 0 -44px, 70px 60px, 70px 40px, 105px 85px, 60px 85px, 8px -4px, 0px 0, 0 0, -5px 0, -30px 0, 0 0;
+  background-repeat: repeat;
+}

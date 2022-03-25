@@ -1,0 +1,115 @@
+body {
+  background: #ffeb3b;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 640px;
+  height: 80vh;
+  font-size: 128px;
+  font-weight: 700;
+  letter-spacing: -7px;
+  color: #4030e8;
+  line-height: 1;
+}
+.text-wrapper span.word {
+  position: absolute;
+}
+.text-wrapper span.word:nth-child(1) {
+  top: 24%;
+  left: -10%;
+}
+.text-wrapper span.word:nth-child(2) {
+  top: calc(24% + 115px);
+  left: 10.1%;
+}
+
+.human {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #e83096;
+  background: linear-gradient(to right, #ffeb3b 35%, #e83096 35%, #e83096 100%);
+  position: absolute;
+}
+.human .eye {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background: #fff;
+  border-radius: 50%;
+  right: 0.4rem;
+  top: 15%;
+}
+.human .eye .eyeball {
+  content: "";
+  width: 50%;
+  height: 50%;
+  border-radius: inherit;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+.human-one {
+  top: 20%;
+  right: 0;
+}
+
+.human-two {
+  background: linear-gradient(to left, #ffeb3b 35%, #a130e8 35%, #a130e8 100%);
+  top: -50%;
+  right: 36%;
+}
+.human-two .eye {
+  right: auto;
+  left: 0.4rem;
+  transform: scaleX(-1);
+}
+
+span.word {
+  white-space: nowrap;
+}
+span.word:nth-child(1) span.char {
+  display: inline-block;
+  opacity: 0;
+  transform: scale(2) rotate(-35deg) translateY(-120px);
+}
+span.word:nth-child(1) span.char:nth-child(4) {
+  color: #e83096;
+}
+span.word:nth-child(2) span.char {
+  display: inline-block;
+  opacity: 0;
+  transform: scale(2) rotate(35deg) translateY(120px);
+}
+span.word:nth-child(2) span.char:nth-child(8) {
+  color: #a130e8;
+}
+
+.hashtag {
+  font: 300 30px "Poppins";
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 5%;
+  display: inline-block;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hashtag span {
+  transform: scale(2.5);
+  display: inline-block;
+  opacity: 0;
+}
